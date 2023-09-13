@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/edu"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Education"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_marginTop="40dp"
+        android:paddingLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edirtext_background"
+        android:hint="Enter Your Username...."
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:layout_marginTop="8dp"
+        android:paddingLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edirtext_background"
+        android:hint="Enter Your Email...."
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:layout_marginTop="8dp"
+        android:paddingLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edirtext_background"
+        android:hint="Enter Your Password...."
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:layout_marginTop="8dp"
+        android:paddingLeft="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:textColorHint="@color/black"
+        android:background="@drawable/edirtext_background"
+        android:hint="Enter Your Confirm Password...."
+        android:textSize="18sp"
+        android:textStyle="italic"/>
+
+    <Button
+        android:layout_marginTop="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1B1A1A"
+        android:text="Register"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:layout_marginTop="100sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" I Already Have an Account? Login!!!"/>
+
+
+
+
+</LinearLayout>
